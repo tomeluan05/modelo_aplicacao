@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo-Aplicação</title>
+    <link rel="stylesheet" href="editar.css">
+</head>
+<body>
+    <header>
+        <h1>Lorem Ipsum Inc.</h1>
+    </header>
+
+    <!--FUNCIONALIDADES-->
+    <section>
+        <h2>Escolha o projeto que deseja editar:</h2>
+
+        <a id="voltar" href="index.html">Início</a>
+        <p>Nome do projeto:
+            <input type="text" name="nomeProjeto" id="nomeProjeto">
+        </p>     
+        <p>Data de início:
+            <input type="date" name="dataInicio" id="dataInicio">
+        </p>       
+        <p>Data de término:
+            <input type="date" name="dataTermino" id="dataTermino">
+        </p>      
+        <p>Valor do projeto:
+            <input type="number" name="valorProjeto" id="valorProjeto">
+        </p> 
+        <p>Risco do investimento 0 / 1 ou 2:
+            <input type="number" name="riscoProjeto" id="riscoProjeto">
+        </p>
+        <p>Participantes do projeto:
+            <input type="text" name="participantesProjeto" id="participantesProjeto">
+        </p>  
+        <input type="button" name="botao" id="botao" value="Clique para editar" onclick="calculoProjeto()">
+    </section> 
+    <footer>
+        <p>&copy; Tomé Luan Jorge Coelho</p>
+    </footer>
+    <script src="editar.js">
+
+    </script>
+
+</body>
+</html>

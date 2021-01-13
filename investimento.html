@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo-Aplicação</title>
+    <link rel="stylesheet" href="investimento.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Lorem Ipsum Inc.</h1>
+    </header>
+
+    <!--FUNCIONALIDADES-->
+    <section>
+        <a id="voltar" href="index.html">Início</a>
+        <h2>Faça sua simulação abaixo:</h2>
+
+        <p>Valor do projeto:
+            <input type="number" name="valorProjeto" id="valorProjeto">
+        </p> 
+
+        <p>Valor do investimento:
+            <input type="number" name="valorInvestimento" id="valorInvestimento">
+        </p> 
+
+        <p>Risco do investimento 0 / 1 ou 2:
+            <input type="number" name="riscoProjeto" id="riscoProjeto">
+        </p>
+
+        <input type="button" name="botao" id="botao" value="Clique para simular" onclick="calculoProjeto()">
+
+        <div id="res">
+
+        </div>
+        
+    </section> 
+
+    <footer>
+        <p>&copy; Tomé Luan Jorge Coelho</p>
+    </footer>
+
+    <script src="investimento.js">
+
+    </script>
+
+</body>
+</html>
